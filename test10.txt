@@ -3,3 +3,8 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/zhuzhiqianglearn/gitlearn_gupao.git
 git push -u origin master
+
+回退到哪个版本
+git reset --hard fe0a4f699da0fc6000450f8afc8973d73efd4921
+把回退版本推到远端
+git push -f
