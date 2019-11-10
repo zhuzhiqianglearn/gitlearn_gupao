@@ -8,3 +8,8 @@ git push -u origin master
 git reset --hard fe0a4f699da0fc6000450f8afc8973d73efd4921
 把回退版本推到远端
 git push -f
+
+创建一个新的分支并且切换（只有新建 才用 -b）
+ git checkout -b dev-1110-demo
+切换分支
+ git checkout master
